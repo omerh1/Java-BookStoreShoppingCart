@@ -72,7 +72,7 @@ public class CartController extends HttpServlet {
 
 	}
 
-	private void updatCart(HttpServletRequest request , HttpServletResponse response)
+	private void updateCart(HttpServletRequest request , HttpServletResponse response)
 		throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		int index= Integer.parseInt(request.getParameter("index"));
