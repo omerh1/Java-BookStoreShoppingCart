@@ -49,7 +49,7 @@ public class CartController extends HttpServlet {
 					deleteFromCart(request, response);
             		break;
 				case "/update":
-					updatCart(request, response);
+					updateCart(request, response);
 					break;
         default:
            break;
